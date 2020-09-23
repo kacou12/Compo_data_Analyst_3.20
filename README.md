@@ -11,7 +11,6 @@ Le but de ce projet est de construire un modèle pour prédire si un client sera
 
 
 ### Méthodes utilisées
-* Statistiques déductives
 * Visualisation de données(numpy pandas , seaborn , matplotlib)
 * Modélisation prédictive(KNN, logistic Regression, Xgboost)
 * Apprentissage automatique
