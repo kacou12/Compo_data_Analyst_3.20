@@ -1,81 +1,71 @@
 # Compo_data_Analyst_3.20
-*Instructions: Click on the raw button in the upper right hand corner of this box.  Copy and paste the template into the README.md document on your github.  Fill in the titles, information and links where prompted! Feel free to stray a bit to suit your project but try to stick to the format as closely as possible for consistency across DSWG projects.*
+* Instructions: Cliquez sur le bouton brut dans le coin supérieur droit de cette boîte. Copiez et collez le modèle dans le document README.md sur votre github. Remplissez les titres, informations et liens là où vous y êtes invité! N'hésitez pas à vous écarter un peu en fonction de votre projet, mais essayez de vous en tenir au format aussi étroitement que possible pour assurer la cohérence entre les projets DSWG. *
 
-# Project Name
-This project is a part of the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) at [Code for San Francisco](http://www.codeforsanfrancisco.org).  Other DSWG projects can be found at the [main GitHub repo](https://github.com/sfbrigade/data-science-wg).
+# Prédiction de vente croisée
+Ce projet fait partie du [Data Science Working Group] (http://datascience.codeforsanfrancisco.org) à [Code for San Francisco] (http://www.codeforsanfrancisco.org). D'autres projets DSWG peuvent être trouvés dans le [référentiel GitHub principal] (https://github.com/sfbrigade/data-science-wg).
 
-#### -- Project Status: [Active, On-Hold, Completed]
+#### - État du projet: [Terminé]
 
-## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
+## Introduction / objectif du projet
+Le but de ce projet est de construire un modèle pour prédire si un client serait intéressé par l'assurance automobile ce qui serait  extrêmement utile pour l'entreprise, car elle pourra ensuite planifier en conséquence sa stratégie de communication pour atteindre ces clients et optimiser son modèle commercial et ses revenus. 
 
-### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact], [slack handle of contact if any]
-* If you do not have a partner leave this section out
 
-### Methods Used
-* Inferential Statistics
-* Machine Learning
-* Data Visualization
-* Predictive Modeling
-* etc.
 
-### Technologies
-* R 
+### Méthodes utilisées
+* Statistiques déductives
+* Visualisation de données(numpy pandas , seaborn , matplotlib)
+* Modélisation prédictive(KNN, logistic Regression, Xgboost)
+* Apprentissage automatique
+
+### Les technologies 
 * Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
-* etc. 
+ 
 
-## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+## Description du projet
+Votre client est une compagnie d'assurance qui a fourni une assurance maladie à ses clients.Il a maintenant besoin de votre aide pour construire un modèle pour prédire si les assurés (clients) de l'année dernière seront également intéressés par l'assurance automobile fournie par la société.
+Une police d'assurance est un arrangement par lequel une entreprise s'engage à fournir une garantie d'indemnisation pour une perte, un dommage, une maladie ou un décès spécifiés en échange du paiement d'une prime déterminée. Une prime est une somme d'argent que le client doit payer régulièrement à une compagnie d'assurance pour cette garantie.
+Désormais, afin de prédire si le client serait intéressé par l'assurance véhicule, vous disposez d'informations sur les données démographiques (sexe, âge, type de code de région), les véhicules (âge du véhicule, dommages), la politique (Premium, canal d'approvisionnement), etc.
 
-## Needs of this project
+## Description des données
+Variable | Définition
+------------ | -------------
+id | 	Identifiant unique du client
+Gender| Sexe du client
+Age | Age du client
+Driving_License | 0: le client n'a pas de permis, 1: le client a déjà son permis
+Region_Code | Code unique pour la région du client
+Previously_Insured | 1: le client a déjà une assurance véhicule, 0: le client n'a pas d'assurance véhicule
+Vehicle_Age | Âge du véhicule 
+Vehicle_Damage | 1: Le client a eu son véhicule endommagé dans le passé. 0: Le client n'a pas fait endommager son véhicule par le
+Annual_Premium | Le montant que le client doit payer en prime dans l'année
+Policy_Sales_Channel | Code anonyme pour le canal de sensibilisation du client, c.-à-d. Différents agents, par courrier, par téléphone, en personne, etc.
+Vintage | 	Nombre de jours, le client a été associé à l'entreprise
+Response | 	1: le client est intéressé, 0: le client n'est pas intéressé
 
-- frontend developers
-- data exploration/descriptive statistics
-- data processing/cleaning
-- statistical modeling
-- writeup/reporting
-- etc. (be as specific as possible)
+## Commencer
 
-## Getting Started
+1. Clonez ce dépôt (pour obtenir de l'aide, consultez ce [tutoriel] (https://help.github.com/articles/cloning-a-repository/)).
+2. Les données brutes sont conservées [ici] (dossier Repo contenant les données brutes) dans ce dépôt.
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-
-    *If using offline data mention that and how they may obtain the data from the froup)*
+    * Si vous utilisez des données hors ligne, mentionnez-le et comment ils peuvent obtenir les données du groupe) *
     
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
+3. Les scripts de traitement / transformation des données sont conservés [ici] (dossier Repo contenant les scripts / carnets de traitement des données)
+4. etc ...
 
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
+* Si votre projet est bien en cours et que la configuration est assez compliquée (par exemple, nécessite l'installation de nombreux packages), créez un autre fichier "setup.md" et créez un lien vers celui-ci ici *  
 
-5. Follow setup [instructions](Link to file)
+5. Suivez les [instructions] de configuration (lien vers le fichier)
 
-## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
+## Carnets / Analyse / Livrables en vedette
+* [Notebook / Markdown / Slide Deck Title] (lien)
+* [Notebook / Markdown / Slide DeckTitle] (lien)
+* [Article de blog] (lien)
 
 
-## Contributing DSWG Members
+## Site Source
 
-**Team Leads (Contacts) : [Full Name](https://github.com/[github handle])(@slackHandle)**
+** Source: [analyticsvidhya] (https://datahack.analyticsvidhya.com/contest/janatahack-cross-sell-prediction/#ProblemStatement) (@ slackHandle) **
 
-#### Other Members:
-
-|Name     |  Slack Handle   | 
-|---------|-----------------|
-|[Full Name](https://github.com/[github handle])| @johnDoe        |
-|[Full Name](https://github.com/[github handle]) |     @janeDoe    |
 
 ## Contact
-* If you haven't joined the SF Brigade Slack, [you can do that here](http://c4sf.me/slack).  
-* Our slack channel is `#datasci-projectname`
-* Feel free to contact team leads with any questions or if you are interested in contributing!
+* Kacou585@gmail.com
