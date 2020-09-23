@@ -2,7 +2,7 @@
 * Instructions: Cliquez sur le bouton brut dans le coin supérieur droit de cette boîte. Copiez et collez le modèle dans le document README.md sur votre github. Remplissez les titres, informations et liens là où vous y êtes invité! N'hésitez pas à vous écarter un peu en fonction de votre projet, mais essayez de vous en tenir au format aussi étroitement que possible pour assurer la cohérence entre les projets DSWG. *
 
 # Prédiction de vente croisée
-Ce projet fait partie du [Data Science Working Group] (http://datascience.codeforsanfrancisco.org) à [Code for San Francisco] (http://www.codeforsanfrancisco.org). D'autres projets DSWG peuvent être trouvés dans le [référentiel GitHub principal] (https://github.com/sfbrigade/data-science-wg).
+Ce projet fait partie du site indien [datahack analyticsvidhya] (https://datahack.analyticsvidhya.com/)
 
 #### - État du projet: [Terminé]
 
