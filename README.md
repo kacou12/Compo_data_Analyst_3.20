@@ -42,25 +42,6 @@ Policy_Sales_Channel | Code anonyme pour le canal de sensibilisation du client, 
 Vintage | 	Nombre de jours, le client a été associé à l'entreprise
 Response | 	1: le client est intéressé, 0: le client n'est pas intéressé
 
-## Commencer
-
-1. Clonez ce dépôt (pour obtenir de l'aide, consultez ce [tutoriel] (https://help.github.com/articles/cloning-a-repository/)).
-2. Les données brutes sont conservées [ici] (dossier Repo contenant les données brutes) dans ce dépôt.
-
-    * Si vous utilisez des données hors ligne, mentionnez-le et comment ils peuvent obtenir les données du groupe) *
-    
-3. Les scripts de traitement / transformation des données sont conservés [ici] (dossier Repo contenant les scripts / carnets de traitement des données)
-4. etc ...
-
-* Si votre projet est bien en cours et que la configuration est assez compliquée (par exemple, nécessite l'installation de nombreux packages), créez un autre fichier "setup.md" et créez un lien vers celui-ci ici *  
-
-5. Suivez les [instructions] de configuration (lien vers le fichier)
-
-## Carnets / Analyse / Livrables en vedette
-* [Notebook / Markdown / Slide Deck Title] (lien)
-* [Notebook / Markdown / Slide DeckTitle] (lien)
-* [Article de blog] (lien)
-
 
 ## Site Source
 
