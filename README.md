@@ -1,5 +1,4 @@
 # Compo_data_Analyst_3.20
-* Instructions: Cliquez sur le bouton brut dans le coin supérieur droit de cette boîte. Copiez et collez le modèle dans le document README.md sur votre github. Remplissez les titres, informations et liens là où vous y êtes invité! N'hésitez pas à vous écarter un peu en fonction de votre projet, mais essayez de vous en tenir au format aussi étroitement que possible pour assurer la cohérence entre les projets DSWG. *
 
 # Dataset: Prédiction de vente croisée
 
